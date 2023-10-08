@@ -1,10 +1,14 @@
 * {
     padding: 0px;
     margin: 0px;;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 #patio {
     block-size: 10cm;
+    margin: auto;
+    display: block;
+    width: 600px;
 }
 
 header {
@@ -12,14 +16,15 @@ header {
 }
 
 nav a {
-    color:black
+    color:black;
+    text-align: right;
 }
 
 nav a:hover {
     color:white
 }
 
-h3{
+.pie{
    color : white;
 }
 
@@ -27,7 +32,8 @@ footer {
     background-color: black;
 }
 
-* {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+p {
+    text-align: right;
 }
+
 
