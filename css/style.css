@@ -1,39 +1,184 @@
-* {
-    padding: 0px;
-    margin: 0px;;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+/**********************************************Letra**********************************************/
+* {  
+    font-family: 'Titillium Web', sans-serif;
 }
+
+/**********************************************Header**********************************************/
+
+header {
+    padding: 1px;
+    margin: -10px;;
+    background-color: #284eee;
+    border-bottom:solid 1.7px rgb(105, 104, 104);
+}
+
+.logo {
+    position: absolute;
+    top:20px; left: 5px;
+    width: 70px;
+}
+
+.massa {
+    position: relative;
+    top: 20px; left: 80px; 
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:25px;
+}
+
+nav a {
+    color:black;
+    font-size: large;
+}
+
+nav a:hover {
+    color:white;
+}
+
+.inicio {
+    position: relative;
+    left: 34cm;
+    bottom: 20px;
+    text-decoration:none;
+}
+
+.verce {
+    position: relative;
+    left: 35cm;
+    bottom: 20px;
+    text-decoration: none;
+}
+
+/*--Submenu--*/
+
+nav {
+    padding: 10px;
+}
+
+.submenu {
+    position: relative;
+    display: inline-block;
+    
+}
+
+.submenu-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #333;
+    width: 150px;
+}
+
+.submenu:hover .submenu-content {
+    display: block;
+}
+
+.submenu-content li {
+    list-style: none;
+    padding: 10px;
+   
+    
+}
+
+.submenu-content li:hover {
+    background: #555;
+    
+}
+
+/*----*/
+
+.semana {
+    position: relative;
+    left: 36cm;
+    bottom: 20px;
+    text-decoration: none;
+}
+
+.entradas {
+    position: relative;
+    left: 37cm;
+    bottom: 20px;
+    text-decoration: none;
+}
+
+/**********************************************Body**********************************************/
 
 #patio {
     block-size: 10cm;
     margin: auto;
     display: block;
-    width: 600px;
+    width: 800px;
+    height: 500px;
 }
 
-header {
-    background-color: #284eee;
+body {
+    background-color: aliceblue;
 }
 
-nav a {
-    color:black;
-    text-align: right;
-}
-
-nav a:hover {
-    color:white
-}
-
-.pie{
-   color : white;
-}
-
+/**********************************************Footer**********************************************/
 footer {
+    padding: 0px;
+    margin: -8px;;
     background-color: black;
+    border-top: solid 1px gray;
 }
 
-p {
-    text-align: right;
+.logofooter {
+    position: relative;
+    top: 20px; left: 100px;
+    width: 100px;
+}
+.redes {
+    position: relative;
+    left: 100px;
+    color : white;
+ }
+
+.instagram {
+    position: relative;
+    left: 100px; bottom: 10px;
+    width: 25px;
 }
 
+.twitter {
+    position: relative;
+    left: 100px; bottom: 7px;
+    width: 30px;
+}
+
+.whatsapp {
+    position: relative;
+    left: 100px; bottom: 10px;
+    width: 30px;
+}
+
+.tiktok {
+    position: relative;
+    left: 100px; bottom: 7px;
+    width: 30px;
+}
+
+.direccion {
+    position: relative;
+    left: 34cm; bottom: 5.5cm;
+    color: white;
+}
+
+.ubicacion {
+    position: relative;
+    left: 29.8cm; bottom: 4cm;
+    width: 30px;
+}
+
+.gmail {
+    position: relative;
+    left: 33.3cm; bottom: 5.5cm;
+    width: 25px;
+}
+
+.mail {
+    position: relative;
+    left: 34.2cm; bottom: 6.8cm;
+    color: white;
+}
 

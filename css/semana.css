@@ -1,0 +1,67 @@
+/**********************************************Semana**********************************************/
+.semanafondo header {
+    background-color: black;
+}
+
+.logo:hover {
+    color: orange;
+}
+
+.semanafondo nav a {
+    color: white;
+}
+
+.semanafondo nav a:hover {
+    color: orange;
+}
+
+header {
+    border-bottom: solid 1px orange;
+}
+
+footer {
+    border-top: solid 1px orange;
+}
+
+.semanafondo {
+    color: white;
+    font-size: larger;
+    /*background-image: url("/imagenes/fondo-mosaico-triangulos-oscuros_476363-5441.webp") ;*/
+    background-image: url("/imagenes/11437.webp");
+}
+
+.semanafondo h2 {
+    text-align: center;
+    color: orange;
+}
+
+.descripsem{
+    text-align: justify;
+    position: relative;
+    left: 10cm;
+    width: 30cm; 
+
+}
+
+.video {
+    margin: auto;
+    display: block;
+    border-top:solid 1px orange;
+    border-left:solid 1px orange;
+    border-right:solid 1px orange;
+    border-bottom:solid 1px orange;
+}
+
+.sinopsisbloque {
+    position: relative;
+    top: 50px; left: 50px;
+    text-align: justify;
+    font-size: larger;
+    width: 20cm; height: 5cm;
+}
+
+.imagen1 {
+    position: relative;
+    bottom: 4.5cm; left: 27cm;
+    width: 18cm;
+}
