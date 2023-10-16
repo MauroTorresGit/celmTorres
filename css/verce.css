@@ -1,0 +1,31 @@
+h2 {
+    color:rgb(0, 0, 200);
+    font-size: 30px;
+    text-align: center;
+}
+
+.copaverce {
+    /*background-color: #2d3cff;*/
+}
+
+.verceimg {
+    margin: auto;
+    display: block;
+    position: relative; 
+    top: 10px;  
+    width: 25cm; 
+}
+
+.eliminatorias {
+    
+}
+
+.goleadores {
+    position: relative;
+    left: 40cm; bottom: 6.68cm;
+}
+
+.tablagoleadores {
+    position: relative;
+    left: 40cm; bottom: 6.6cm;
+}

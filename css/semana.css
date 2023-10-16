@@ -7,6 +7,11 @@
     color: orange;
 }
 
+.massa {
+    position: relative;
+    top: 25px;
+}
+
 .semanafondo nav a {
     color: white;
 }
