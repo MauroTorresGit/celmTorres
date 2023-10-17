@@ -5,7 +5,7 @@ h2 {
 }
 
 .copaverce {
-    /*background-color: #2d3cff;*/
+    /*background-color: #284eee;*/
 }
 
 .verceimg {
@@ -16,16 +16,56 @@ h2 {
     width: 25cm; 
 }
 
-.eliminatorias {
+
+/******************************************************************/
+
+.tablaposiciones, .tablagoleadores {
+    text-align: center;
+}
+
+.tablaposiciones tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+thead {
+    background-color: #284eee;
+    color: white;
+}
+
+
+td, th {
+    padding: 25px;
+    border-bottom: solid 1px;
     
 }
 
-.goleadores {
-    position: relative;
-    left: 40cm; bottom: 6.68cm;
+.puntos {
+    border-bottom: solid 1px;
 }
 
+.copaoro {
+    background-color: gold;
+}
+
+.copaplata {
+    background-color:gainsboro;
+}
+
+
+.tablaposiciones th, .tablaposiciones td, .tablagoleadores td {
+    border: 1px solid #dddddd;
+}
+
+
+
+
+.goleadores {
+    /*position: relative;
+    left: 30cm; bottom: 6.68cm;*/
+}
+
+
 .tablagoleadores {
-    position: relative;
-    left: 40cm; bottom: 6.6cm;
+    /*position: relative;
+    left: 30cm; bottom: 6.6cm;*/
 }
