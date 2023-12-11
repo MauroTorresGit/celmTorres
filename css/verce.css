@@ -18,12 +18,12 @@ h2 {
 
 
 /******************************************************************/
-
-.tablaposiciones, .tablagoleadores {
-    text-align: center;
+.copaverce {
+    background: url(/imagenes/verce-negro.png) repeat-x;
+    background-position: center;
 }
 
-.tablaposiciones tbody tr:hover {
+table tbody tr:hover {
     background-color: #f5f5f5;
 }
 
@@ -32,11 +32,22 @@ thead {
     color: white;
 }
 
-
 td, th {
     padding: 25px;
-    border-bottom: solid 1px;
-    
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    width: 60px;
+}
+
+th {
+    background-color: #284eee;
+    color: white;
+    width: 60px;
+}
+
+.equipo {
+    width: 120px;
 }
 
 .puntos {
@@ -51,21 +62,106 @@ td, th {
     background-color:gainsboro;
 }
 
+.tablagoleadores {
+    position: relative;
+    left: 30px;
+}
+
+.goleadores {
+    text-align: center;
+    position: relative;
+    right:19.5cm;
+}
+
+.posiciones {
+    position: relative;
+    right: 12cm;
+}
+
 
 .tablaposiciones th, .tablaposiciones td, .tablagoleadores td {
     border: 1px solid #dddddd;
 }
 
-
-
-
-.goleadores {
-    /*position: relative;
-    left: 30cm; bottom: 6.68cm;*/
+table {
+    margin: 0;
+    padding: 10px;
+    border-collapse: collapse;
 }
 
+.oro-clasificados {
+    background-color: gold;
+    width: 24cm;
+    text-align: center;
+}
 
-.tablagoleadores {
-    /*position: relative;
-    left: 30cm; bottom: 6.6cm;*/
+.plata-clasificados {
+    background-color: gainsboro;
+    width: 24cm;
+    text-align: center;
+}
+
+.fixture {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    left: 13cm;
+    bottom: 26.2cm;
+}
+
+.match-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #284eee;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.resultado {
+    background-color: #c3e6cb;
+    font-weight: bold;
+}
+
+h2 {
+    color: #284eee;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.schedule-section {
+    margin-top: 20px;
+}
+
+.schedule-section h3 {
+    color: #284eee;
+}
+
+.schedule-section p {
+    margin: 5px 0;
+}
+
+.tabla-asistidores {
+    position: relative;
+    bottom: 22.5cm;
+    left: 35cm;
+    width: 10cm;
+    padding-right:0px;
 }

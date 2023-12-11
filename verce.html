@@ -11,33 +11,39 @@
     <title>Celm</title>
 </head>
 <body>
-    <header>
-        <img class="logo" src="./imagenes/00000196Juqjw.png" alt="">
-        
-        <h1 class="massa">Lorenzo Massa</h1>
-
+    <header class="header">
         <div>
-            <nav>
-                <a class="inicio" href="/">Inicio</a>
-                <a class="verce" href="./verce.html">Copa Verce</a>
-                <a class="semana" href="./semana.html">Semana 2024</a>
-                <a class="entradas" href="./entradas.html">Entradas</a>
-            </nav>
+            <img class="logo" src="./imagenes/logonuevo.png" alt="Logo Lorenzo Massa">
+            <h1 class="massa">Lorenzo Massa</h1>
+             <div>
+                 <nav>
+                     <a class="inicio" href="/">Inicio</a>
+                     <div class="submenu">
+                         <a class="verce" href="./verce.html">Copa Verce<span class="flecha">&#9660;</span></a>
+
+                         <ul class="submenu-content">
+                             <li><a href="#">Mayores</a></li>
+                             <li><a href="#">Pre-menores</a></li>
+                             <li><a href="#">Menores</a></li>
+                         </ul>
+                     </div>
+                     <a class="semana" href="./semana.html">Semana 2024</a>
+                     <a class="entradas" href="./entradas.html">Entradas</a>
+            </div>
         </div>
     </header>
     
     <div class="copaverce">
         <img class="verceimg" src="imagenes/copa verce.png" alt="">
         <h2>Copa Vercelone</h2>
-        <h3>Posiciónes</h3>
     </div>
     <div class="tablaposiciones">
-    
-    <table class="tablaposiciones" >
+        <h2 class="posiciones">Posiciones</h2>
+    <table>
     <thead>
         <tr>
             <th>#</th>
-            <th>Equipo</th>
+            <th class="equipo">Equipo</th>
             <th>Pts</th>
             <th>PJ</th>
             <th>PG</th>
@@ -172,70 +178,137 @@
     </tbody>
     </table>
     </div>
+
+        <div class="oro-clasificados"> 
+            <h3>■ Clasificados a la copa oro</h3>
+        </div>
+        <div class="plata-clasificados">
+            <h3>■ Clasificados a la copa plata</h3>
+        </div>    
     
     </table>
-        <h3 class="goleadores">Goleadores</h3>
+        <h2 class="goleadores">Goleadores</h2>
     
         <div class="tablagoleadores">
             <table>
                 <tr>
                     <thead>
                         <th>#</th>
-                        <th>Equipo</th>
+                        <th class="equipo">Equipo</th>
                         <th>Jugador</th>
                         <th>Goles</th>
                     </thead>
                 </tr>
             <tr>
-                <td>
-                    1
-                </td>
-                <td>
-                    Boca
-                </td>
-                <td>
-                    Cavani
-                </td>
-                <td>
-                    12
-                </td>
+                <td>1</td>
+                <td>Talleres</td>
+                <td>M. Santos</td>
+                <td>13</td>
             </tr>
             <tr>
-                <td>
-                    2
-                </td>
-                <td>
-                    River
-                </td>
-                <td>
-                    Beltran
-                </td>
-                <td>
-                    10
-                </td>
+                <td>2</td>
+                <td>Belgrano</td>
+                <td>P. Vegetti</td>
+                <td>13</td>
             </tr>
             <tr>
-                <td>
-                    3
-                </td>
-                <td>
-                    San Martin de Tucuman
-                </td>
-                <td>
-                    Dening
-                </td>
-                <td>
-                    7
-                </td>
+                <td>3</td>
+                <td>Argentinos Juniors</td>
+                <td>G. Avalos</td>
+                <td>12</td>
             </tr>
-
+            <tr>
+                <td>4</td>
+                <td>River Plate</td>
+                <td>L. Beltran</td>
+                <td>12</td>
+            </tr>            
+            <tr>
+                <td>5</td>
+                <td>Defensa y Justicia</td>
+                <td>N. Fernandez</td>
+                <td>12</td>
+            </tr>
         </table>
         </div>
 
+        <div class="fixture">
+            <h2>Calendario de Partidos</h2>
+            <table class="match-table">
+                <thead>
+                    <tr>
+                        <th>Hora</th>
+                        <th>Equipo Local</th>
+                        <th>VS</th>
+                        <th>Equipo Visitante</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>12:00 PM</td>
+                        <td>Equipo A</td>
+                        <td class="resultado">3 - 1</td>
+                        <td>Equipo B</td>
+                    </tr>
+                    <tr>
+                        <td>3:00 PM</td>
+                        <td>Equipo C</td>
+                        <td class="resultado">2 - 2</td>
+                        <td>Equipo D</td>
+                    </tr>
+                </tbody>
+            </table>
+        
+            <div class="schedule-section">
+                <h3>Próximo Partido</h3>
+                <p>Fecha: Fecha 2</p>
+                <p>Hora: 2:30 PM</p>
+            </div>
+        </div>
 
-        <br>
-        <br>
-        <br>    
+        <div class="tabla-asistidores">
+            <h2>Asistidores</h2>
+            <table>
+                <tr>
+                    <thead>
+                        <th>#</th>
+                        <th class="equipo">Equipo</th>
+                        <th>Jugador</th>
+                        <th>Asistencias</th>
+                    </thead>
+                </tr>
+            <tr>
+                <td>1</td>
+                <td>Rosario Central</td>
+                <td>I. Malcorra</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>River Plate</td>
+                <td>P. Solari</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Talleres</td>
+                <td>D. Valoyes</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Talleres</td>
+                <td>R. Garro</td>
+                <td>6</td>
+            </tr>            
+            <tr>
+                <td>5</td>
+                <td>Talleres</td>
+                <td>M. Santos</td>
+                <td>5</td>
+            </tr>
+        </table>
+        </div>
 
         <footer>
             <div>

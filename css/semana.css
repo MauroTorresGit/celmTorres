@@ -1,4 +1,12 @@
 /**********************************************Semana**********************************************/
+.headerSemana {
+    padding: 1px;
+    margin: -10px;;
+    background-color: black;
+    background-image: linear-gradient(black, 105px, orange);
+    font-family: 'Titillium Web', sans-serif;
+}
+
 .semanafondo header {
     background-color: black;
 }
@@ -20,10 +28,6 @@
     color: orange;
 }
 
-header {
-    border-bottom: solid 1px orange;
-}
-
 footer {
     border-top: solid 1px orange;
 }
@@ -32,7 +36,7 @@ footer {
     color: white;
     font-size: larger;
     /*background-image: url("/imagenes/fondo-mosaico-triangulos-oscuros_476363-5441.webp") ;*/
-    background-image: url("/imagenes/11437.webp");
+    background: url("/imagenes/11437.webp");
 }
 
 .semanafondo h2 {
@@ -69,4 +73,8 @@ footer {
     position: relative;
     bottom: 4.5cm; left: 27cm;
     width: 18cm;
+}
+
+* {
+    font-family: 'Germania One',display;
 }
